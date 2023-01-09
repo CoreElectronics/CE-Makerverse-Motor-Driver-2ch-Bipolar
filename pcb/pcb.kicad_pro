@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.19999999999999998
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [],
@@ -64,6 +64,7 @@
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
+        "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "invalid_outline": "error",
@@ -82,6 +83,7 @@
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
+        "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_dangling": "warning",
         "track_width": "error",
@@ -354,7 +356,7 @@
       }
     ],
     "meta": {
-      "version": 1
+      "version": 2
     },
     "net_colors": null
   },
@@ -365,7 +367,7 @@
       "netlist": "",
       "specctra_dsn": "",
       "step": "../../../../temp/pcb.step",
-      "vrml": "../../../tmp/makerverse-bipolar-motor-driver.wrl"
+      "vrml": "../../../../../../Media - Video In Work SSD/0.5 - 3D Animation Files Blender Experiment/Makerverse CAD Files/Updated Workflow/makerverse-2ch-motor-driver.wrl"
     },
     "page_layout_descr_file": ""
   },
